@@ -8,14 +8,13 @@
 }
 button {
   background-color: var(--secondary-color);
-  color: var(--main-color) !important;
+  color: var(--white-color) !important;
   border: none;
   border-radius: 5px;
   padding: 5px;
   width: 20%;
   position: relative;
   z-index: 1;
-  transition: ease-out 0.3s;
 }
 button:hover {
   color: var(--secondary-color) !important;
@@ -24,7 +23,6 @@ button:before {
   content: "";
   position: absolute;
   background-color: var(--white-color);
-  transition: 0.5s all ease;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -36,7 +34,7 @@ button:hover:before {
   left: 0;
   right: 0;
   opacity: 1;
-  z-index: 1;
+  z-index: -1;
 }
 /* ///nav///////// */
 .first-nav {
@@ -218,4 +216,49 @@ main .fifth-part button {
 }
 .footer ul li .active {
   color: var(--secondary-color) !important;
+}
+/* ////////// */
+@media (min-width: 100px) and (max-width: 1200px) {
+  .first-nav {
+    height: fit-content;
+  }
+  .first-nav .phones {
+    text-align: center;
+  }
+  .first-nav .icons {
+    text-align: center;
+  }
+
+  /* ////// */
+  .second-nav {
+    height: fit-content;
+  }
+  .second-nav .logo {
+    width: 70%;
+  }
+  .second-nav .pages {
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .second-nav .pages ul {
+    float: unset !important;
+  }
+  /* //main //////////////// */
+  main .first-part {
+    padding-bottom: 20px;
+  }
+
+  main .first-part .right-part img {
+    display: none;
+  }
+  /* ///////// */
+  .footer {
+    margin-top: 30px;
+    padding: 50px;
+    background-image: url(https://evotech-co.com/content/assets/images/bg/footer.png);
+    color: var(--white-color);
+  }
+  .footer .first-section {
+    margin-bottom: 20px;
+  }
 }
