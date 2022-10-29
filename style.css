@@ -48,6 +48,10 @@ button:hover:before {
   position: relative;
   margin-right: 20px;
 }
+.first-nav span a {
+  text-decoration: none;
+  color: white;
+}
 .first-nav .phones span i {
   display: inline-block;
   margin-right: 5px;
@@ -86,6 +90,10 @@ button:hover:before {
   list-style: none;
   display: flex;
 }
+.second-nav .pages ul li {
+  width: fit-content;
+  margin-right: 10px;
+}
 .second-nav .pages ul li a {
   margin-right: 20px;
   text-decoration: none;
@@ -96,12 +104,13 @@ button:hover:before {
   background-color: var(--secondary-color);
   padding-left: 10px;
   color: var(--white-color) !important;
+  width: 65px;
+  border-radius: 30px;
 }
 /* //main //////////////// */
 main .first-part {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url(https://evotech-co.com/content/assets/images/bg/header-3.jpg);
-
+    url(https://evotech-co.com/_next/static/media/header-3.43fa6916.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: var(--white-color);
@@ -112,7 +121,8 @@ main .first-part .left-part h1 {
   width: 60%;
 }
 main .first-part .right-part img {
-  width: 400px;
+  width: 30rem;
+  margin-bottom: 40px;
 }
 /* /////////////////////////////////// */
 main .second-part {
@@ -179,7 +189,7 @@ main .fourth-part h3 {
 /* /////////////////// */
 main .fifth-part {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(https://evotech-co.com/content/assets/images/bg/serivces.jpg);
+    url(https://evotech-co.com/_next/static/media/serivces.16ee136d.jpg);
   background-attachment: fixed;
   color: var(--white-color);
   background-size: cover;
@@ -193,7 +203,7 @@ main .fifth-part button {
 .footer {
   margin-top: 30px;
   padding: 50px;
-  background-image: url(https://evotech-co.com/content/assets/images/bg/footer.png);
+  background-image: url(https://evotech-co.com/_next/static/media/footer.c31ac5c1.png);
   color: var(--white-color);
 }
 
