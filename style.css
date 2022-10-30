@@ -117,10 +117,6 @@ main .first-part {
   color: var(--white-color);
   padding-top: 50px;
 }
-
-main .first-part .left-part h1 {
-  width: 60%;
-}
 main .first-part .right-part img {
   width: 30rem;
   margin-bottom: 40px;
@@ -183,9 +179,9 @@ main .fourth-part h3 {
   margin-top: 20px;
   color: var(--main-color) !important;
 }
-.carousel .button {
+.carousel button {
   background-color: var(--grey-color);
-  width: 100px;
+  width: 100px !important;
 }
 .carousel .button:hover {
   background-color: var(--secondary-color);
@@ -263,7 +259,6 @@ main .fifth-part button {
   }
   main .first-part .left-part h1 {
     width: 100%;
-    font-size: 10vw;
   }
   main .first-part .right-part img {
     display: none;
